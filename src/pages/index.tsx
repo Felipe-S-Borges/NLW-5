@@ -108,7 +108,7 @@ export default function Home({latestEpisodes, allEpsodes}: HomeProps) {
                   </Link>
                 </td>
                 <td>{episode.members}</td>
-                <td style={{width:100}} >{episode.publishedAt}</td>
+                <td >{episode.publishedAt}</td>
                 <td>{episode.durationAsString}</td>
                 <td>
                   <button type="button" onClick={()=>{playList(episodeList, index + latestEpisodes.length)}}>

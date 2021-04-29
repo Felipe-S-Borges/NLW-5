@@ -146,3 +146,33 @@
     }
 }
 
+
+@media (max-width:320px) {
+
+    .playerContainer{
+        position: fixed;
+        bottom: 0;
+        padding: 1rem 1rem;
+        height: auto;
+        min-width: 230px;
+        width: 100%;
+        .currentEpisode{
+            image{
+                display: none;
+            }
+        }
+
+        .empityPlayer{
+            display: none;
+            height: auto;
+        }
+        
+       
+    }
+    .buttons{
+
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+    
+}
