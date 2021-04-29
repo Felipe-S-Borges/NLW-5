@@ -185,10 +185,23 @@
         }
     }
 }
+@media (min-width:769px){
+    .allEpisodes{
+        table{
+           
+            th, td{
+                padding: 1rem 1rem;
+                margin-bottom: 1rem;
+               
+            }
+        }
+    }
+    
+}
 
-@media(max-width:320px){
+@media(max-width:768px){
     .homepage{
-        padding: 0 1rem;
+        padding: 0 0.6rem;
         height: 100%;
         
         h2{
@@ -206,10 +219,15 @@
         ul{
             gap: 1rem;
             li{
-                padding: 1rem;
-                
+                padding: 1rem;      
                 margin-bottom: 0.675rem;
+                div:first-child{
+                    border: 2px solid red;
+                    display: none !important;
+                    
+                }
             }
+            
         }
     }
     .allEpisodes{
@@ -217,7 +235,8 @@
         padding-bottom: 1rem;
        
         table{
-           
+            
+            
             thead{
                 display: none;
             }
@@ -305,3 +324,4 @@
         
     }
 }
+
