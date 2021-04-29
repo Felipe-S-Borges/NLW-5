@@ -69,8 +69,8 @@ export default function Player(){
     return(    
         <div className={styles.playerContainer}>
             <header>
-                <img src="playing.svg"  alt="Tocando agora"/>
-                <strong>Tocando agora</strong>              
+                <img src="/playing.svg"  alt="Tocando agora"/>
+                <strong>{episode?.title}</strong>              
             </header>
             { episode? (
                 <div className={styles.currentEpisode} > 

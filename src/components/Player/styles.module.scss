@@ -1,4 +1,5 @@
 .playerContainer{
+    z-index: 10;
     padding: 3rem 4rem;
     width: 26.5rem;
     height: 100vh;
@@ -150,15 +151,38 @@
 @media (max-width:320px) {
 
     .playerContainer{
-        position: fixed;
-        bottom: 0;
+       
         padding: 1rem 1rem;
         height: auto;
         min-width: 230px;
         width: 100%;
+        header{
+            padding-top: 0;
+            padding-bottom: 0.6rem;
+            strong{
+                font-size: 0.775rem;
+            }
+        }
         .currentEpisode{
-            image{
+            
+            display: none;
+
+            & :first-child img{
+                background-color: chocolate;
+                content: '';
+            }
+            strong{
+
+                
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                
+                line-height: 1rem;
+            }
+            span{
+
                 display: none;
+                
             }
         }
 
@@ -166,12 +190,19 @@
             display: none;
             height: auto;
         }
+        .progress{
+
+            
+            gap: 0.5rem;
+            font-size: 0.775rem;    
+            
+        }
         
        
     }
     .buttons{
 
-        margin-top: 1rem;
+        margin-top: 0.675rem;
         gap: 1rem;
     }
     
