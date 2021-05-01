@@ -2,12 +2,64 @@
 <h1 align="center">
    <img src="/.github/Header4.png" alt="Podcastr">
 </h1>
-------------
+
 <h2>
-    Sobre o projeto
+   :scroll: Sobre o projeto
 </h2>
 
-<p>
+
 Projeto proposto pela <a href="https://rocketseat.com.br/">Rockeseat</a> 🚀 durante a 5ª edição da NLW durante o mês de Abril.
-</p>
+
 ------------
+
+<h2>
+   🖥️ Tecnologias aplicadas no projeto
+</h2>
+
+&rarr; <a href="https://nextjs.org/">Next.js</a> <br>
+&rarr; <a href="https://reactjs.org">React</a> <br>
+&rarr; <a href="https://www.typescriptlang.org/">TypeScript</a> <br>
+&rarr; <a href="https://sass-lang.com/">SASS</a> <br>
+
+------------
+
+<h2>🔌 Inicializando o projeto</h2>
+Faça um clone do projeto:
+
+```bash
+$ git clone https://github.com/FelipeLee22/NLW-5.git
+```
+
+Acesse a pasta:
+
+```bash
+$ cd NLW-5
+```
+
+Siga os passos abaixo:
+```bash
+# Instalar as dependencias do projeto
+$ yarn
+
+# Rodar o servidor local
+$ yarn server
+
+# Iniciar o projeto
+$ yarn dev
+```
+
+------------
+<h2>:black_nib: Layout</h2>
+O layout do projeto está disponível no <a href="https://www.figma.com/file/is9KGod2KJ8eINasYTA0ad/Podcastr">&rarr;  Figma</a>.
+
+------------
+<h2>👣 Próximos passos</h2>
+
+- [x] Responsive Web Design
+- [ ] Modo noturno
+- [ ] Progressive Web App - PWA
+
+------------
+<h2> :tada: Agradecimentos  </h2>
+
+Agradeço ao time da <a href="https://rocketseat.com.br/">RocketSeat</a>🚀 por este evento maravilhoso que proporciona um abiente de crescimento para toda a comunidade. Rumo ao próximo nível. :triangular_flag_on_post:
