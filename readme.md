@@ -8,7 +8,7 @@
 </h2>
 
 
-Projeto proposto pela <a href="https://rocketseat.com.br/">Rockeseat</a> 🚀 durante a 5ª edição da NLW durante o mês de Abril.
+O projeto proposto pela <a href="https://rocketseat.com.br/">Rockeseat</a> 🚀 durante a 5ª edição da NLW durante o mês de Abril. Consiste no desenvolvimento de uma aplicação web que permite aos usuários ouvirem podcasts de um único produtor de conteúdo exclusivamente.
 
 ------------
 
@@ -50,7 +50,7 @@ $ yarn dev
 
 ------------
 <h2>:black_nib: Layout</h2>
-O layout do projeto está disponível no <a href="https://www.figma.com/file/is9KGod2KJ8eINasYTA0ad/Podcastr">&rarr;  Figma</a>.
+O layout do projeto está disponível no &rarr; <a href="https://www.figma.com/file/is9KGod2KJ8eINasYTA0ad/Podcastr">Figma</a>.
 
 ------------
 <h2>👣 Próximos passos</h2>
