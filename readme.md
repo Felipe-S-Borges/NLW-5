@@ -38,7 +38,7 @@ $ cd NLW-5
 
 Siga os passos abaixo:
 ```bash
-# Instalar as dependencias do projeto
+# Instalar as dependências do projeto
 $ yarn
 
 # Rodar o servidor local
