@@ -56,7 +56,7 @@ O layout do projeto está disponível no &rarr; <a href="https://www.figma.com/f
 <h2>👣 Próximos passos</h2>
 
 - [x] Responsive Web Design
-- [ ] Modo noturno
+- [x] Modo noturno
 - [ ] Progressive Web App - PWA
 
 ------------
