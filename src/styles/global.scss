@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
+html {
 
     --white: #fff;
 
@@ -19,7 +19,26 @@
     --purple-400: #9164fa;
     --purple-500: #8257e5;
     --purple-800: #6f48c9;
+    &[data-dark=true]{
+
+        --white: #3b3b3b;
+        --gray-50:#242424;
+        --gray-100: #424242;
+        --gray-200: #d1d1d1;
+        --gray-500: #e9e8e8;
+        --gray-800: #f1faf5;
+
+        --green-500: #919191;
+
+        --purple-400: #afafaf;
+        --purple-500: #525252;
+
+    }
 }
+
+
+
+
 
 @media(max-width: 1080px){
 
@@ -69,3 +88,4 @@ button{
 
     cursor: pointer;
 }
+

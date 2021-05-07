@@ -72,6 +72,16 @@
     justify-content: center;
 }
 
+html[data-dark=true]{
+    .playerContainer{
+        color: var(--gray-200);
+    }
+    .empityPlayer{
+        border: 1.5px dashed  rgba(145,100,250,0.8);
+        background: linear-gradient(143.8deg, rgba(173, 173, 173, 0.8) 0%,rgba(0,0,0,0) 100% );
+    }
+}
+
 .progress{
 
     display: flex;
